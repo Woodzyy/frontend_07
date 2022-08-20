@@ -2,6 +2,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+.menu-link,
+.menu-dropdown__link {
+  display: block;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 1em;
+  background-color: rgb(228, 31, 31);
+  white-space: nowrap;
+}
+
+.menu-link:hover,
+.menu-dropdown__link:hover {
+  background-color: black;
+}
+
 .menu {
   font-size: 0;
 }
