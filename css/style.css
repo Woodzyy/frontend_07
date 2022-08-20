@@ -1,8 +1,37 @@
+/* Font style */
+/* 001 */
 body {
   font-family: 'Roboto', sans-serif;
 }
 
+/* Main settings for menus & position installation */
+/* 010 */
+.menu {
+  font-size: 0;
+}
+
+/* 010 */
+.menu__item {
+  display: inline-block;
+  position: relative;
+  font-size: 1rem;
+}
+
+/* 030 */
+.menu__item:hover .menu-dropdown {
+  display: block;
+}
+
+/* 010 */
+.menu-dropdown {
+  display: none;
+  position: absolute;
+}
+
+/* Links styles */
+/* 010 */
 .menu-link,
+/* 010 */
 .menu-dropdown__link {
   display: block;
   color: aliceblue;
@@ -12,26 +41,10 @@ body {
   white-space: nowrap;
 }
 
+/* Link hover style */
+/* 020 */
 .menu-link:hover,
+/* 020 */
 .menu-dropdown__link:hover {
   background-color: black;
-}
-
-.menu {
-  font-size: 0;
-}
-
-.menu__item {
-  display: inline-block;
-  position: relative;
-  font-size: 1rem;
-}
-
-.menu__item:hover .menu-dropdown {
-  display: block;
-}
-
-.menu-dropdown {
-  display: none;
-  position: absolute;
 }
