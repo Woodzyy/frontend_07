@@ -8,9 +8,15 @@ body {
 
 .menu__item {
   display: inline-block;
+  position: relative;
   font-size: 1rem;
+}
+
+.menu__item:hover .menu-dropdown {
+  display: block;
 }
 
 .menu-dropdown {
   display: none;
+  position: absolute;
 }
